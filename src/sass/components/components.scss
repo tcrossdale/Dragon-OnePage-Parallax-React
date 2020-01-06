@@ -1,0 +1,107 @@
+.flex-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  flex-direction: row;
+  width: 800px;
+  max-width: 100%;
+  flex-flow: row;
+
+  .flex-list-item {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0 10px 5px 10px;
+  }
+}
+.btn-request-demo {
+  padding: 7px 17px;
+  border-radius: 0px;
+  background-color: $linkColorAlt;
+  color: $white;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.demo-modal {
+  max-width: 775px;
+  .modal-header {
+    background-color: $grey;
+    border-radius: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    h5 {
+      color: $white;
+    }
+    button {
+      margin: 0;
+      padding: 0;
+      background-image: url(../../assets/images/icon_close.png);
+      width: 22px;
+      height: 22px;
+      opacity: 1;
+      background-position: center;
+      background-size: cover;
+      outline: none;
+      box-shadow: none;
+      span {
+        display: none;
+      }
+    }
+  }
+  .modal-content {
+    border-radius: 0;
+    border: none;
+  }
+  .modal-header {
+    text-align: center;
+  }
+  .modal-body {
+    padding: 20px;
+    background-color: $white-off-2;
+    form {
+      label {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .modal-footer {
+    background-color: $white-off-2;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 30px 0;
+  }
+}
+.separator {
+  width: 100%;
+  margin: 0 auto;
+  img {
+    max-width: 100%;
+  }
+}
+
+/*
+--------------------------------------------
+--- Responsive Styling 
+-------------------------------------------*/
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+  .flex-list {
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1200px) {
+}

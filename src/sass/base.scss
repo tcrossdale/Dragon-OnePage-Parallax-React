@@ -1,0 +1,90 @@
+body {
+  font-family: $oxygenFont;
+  font-size: 16px;
+  font-weight: 100;
+  color: $grey;
+}
+a,
+p,
+label {
+  font-family: $oxygenFont;
+  font-weight: 100;
+}
+a {
+  cursor: pointer;
+  color: $linkColor;
+  text-decoration: none;
+
+  &:hover {
+    color: $linkColor;
+    text-decoration: underline;
+  }
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  color: $linkColorAlt2;
+  font-family: $oxygenFont;
+  font-weight: 100;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-family: $oxygenFont;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 38px;
+  line-height: 36px;
+  font-size: 15px;
+  padding: 0;
+}
+
+.btn,
+button {
+  border-radius: 0;
+}
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid $formControlBorder;
+}
+
+.container {
+  max-width: $container-max-width;
+}
+
+form {
+  .req {
+    color: $errorColor;
+    padding-right: 5px;
+  }
+}
+
+.btn-aqua {
+  background-color: $linkColorAlt2;
+  border-color: $linkColorAlt2;
+  border: 1px solid $linkColorAlt2;
+  color: #f6fafd;
+
+  &:hover {
+    background-color: $white;
+    color: $linkColorAlt2;
+    border-color: $linkColorAlt2;
+  }
+}
+.btn-cloudexpo {
+  height: 60px;
+  width: 370px;
+  line-height: 59px !important;
+  font-size: 17px;
+  max-width: 100%;
+}
