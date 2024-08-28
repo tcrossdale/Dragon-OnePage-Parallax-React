@@ -22,7 +22,7 @@
     "run-sequence": "^1.2.2",
     "sass-loader": "^7.2.0",
     "style-loader": "^1.0.0",
-    "webpack": "4.41.2"
+    "webpack": "5.94.0"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
